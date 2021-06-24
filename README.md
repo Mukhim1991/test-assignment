@@ -43,7 +43,7 @@
 * API to Fetch 1 Reimbursement Entry
 
 
-## Codebase structure of task1:
+## Codebase structure of task2:
 1. codebase - It conatins all the code files needed for backend to work.
 2. dependency files - It conatins a sql for database. 
 
@@ -59,16 +59,16 @@
 * Http method: POST
 * Response type: JSON
 * Post body params: 'employee_id' will be numeric value, 'purpose' - will be text decsription, 'reimbursement_dt' will be a date (yyyy-mm-dd) in following format for now and  'amount' will be float value.
-* I have used Postman software for testing this API.
+* I have used Postman software (https://www.postman.com/downloads/) for testing this API.
 ### 2. API to Fetch 1 Reimbursement Entry
 * Endpoint url: localhost/task2/codebase/api/read.php?reimbursement_id=1
 * Http method: GET
 * Response type: JSON
 * Qyery string: 'reimbursement_id' will be a numeric id which will return record against it otherwise blank array will be returned.
-* You can use Postman or hit that URL in the browser to test it.
+* You can use Postman software (https://www.postman.com/downloads/) or hit that URL in the browser to test it.
 ### 3. API to Fetch the All Reimbursement details Date wise
 * Endpoint url: localhost/task2/codebase/api/read_datewise.php?from_dt=2021-06-04&to_dt=2021-06-09
 * Http method: GET
 * Response type: JSON
 * Qyery string: 'from_dt' will be a from date (yyyy-mm-dd) and 'to_dt' will be a to date (yyyy-mm-dd) to return all the reimbursment records taken place into given date range. In case there are no reimbursement record for given date range then empty array will be returned.
-* You can use Postman or hit enpoint URL in the browser to test it.
+* You can use Postman software (https://www.postman.com/downloads/) or hit enpoint URL in the browser to test it.
